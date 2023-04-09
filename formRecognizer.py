@@ -13,8 +13,8 @@ key = config.key
 form_recognizer_client = FormRecognizerClient(endpoint, AzureKeyCredential(key))
 form_training_client = FormTrainingClient(endpoint, AzureKeyCredential(key))
 
-myReceiptUrl = "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/master/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/receipt/contoso-receipt.png"
-
+# myReceiptUrl = "https://raw.githubusercontent.com/Azure/azure-sdk-for-python/master/sdk/formrecognizer/azure-ai-formrecognizer/tests/sample_forms/receipt/contoso-receipt.png"
+myReceiptUrl = "https://docsinvestreusa.s3.amazonaws.com/Comunicaciones/test-receipt.jpg"
 #user form recognizer client to recognize image from myReceiptUrl
 poller = form_recognizer_client.begin_recognize_receipts_from_url(myReceiptUrl)
 result = poller.result()
