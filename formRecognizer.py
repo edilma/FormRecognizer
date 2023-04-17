@@ -9,6 +9,7 @@ from azure.core.exceptions import ResourceNotFoundError
 endpoint = config.endpoint
 key = config.key
 #create client and authenticate with the endpoint and key
+# I am using the same key for both the training and the recognizer client
 
 form_recognizer_client = FormRecognizerClient(endpoint, AzureKeyCredential(key))
 form_training_client = FormTrainingClient(endpoint, AzureKeyCredential(key))
