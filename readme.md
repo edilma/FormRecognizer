@@ -12,10 +12,11 @@ The model also provide the confidence for the values predicted.
 
 
 ## Demo
+![Image](https://docsinvestreusa.s3.amazonaws.com/Comunicaciones/test-receipt.jpg)
 
-insert the result from the receipt here
+This is what the model read. I don't have a front end for this app. 
 
-![Image](https://raw.githubusercontent.com/edilma/react-valentine/main/src/components/images/Valentine-Card-Edilma.gif)
+![Image](https://github.com/edilma/FormRecognizer/blob/main/Screenshot%202023-05-02%20at%206.46.18%20AM.png?raw=true)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
