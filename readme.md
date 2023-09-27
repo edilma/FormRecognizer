@@ -1,9 +1,7 @@
 
-# Program to read a receipt using AI 
+# Document Processing Program to read a receipt using AI 
 
-This program can read the content of a receipt using  a trained model (Artificial Intelligence) to predict the items in the receipt. 
-The model also provide the confidence for the values predicted. 
-
+This is a document processing program.  Using AzureAI we extract the data from a receipt.  The data can be then send to be used in any other program ( accounting, data analysis, etc).  
 
 ## Technologies used
 - AzureAI
