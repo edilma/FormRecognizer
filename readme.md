@@ -10,7 +10,7 @@ This is a document processing program.  Using AzureAI we extract the data from a
 
 
 ## Demo
-![Image](https://docsinvestreusa.s3.amazonaws.com/Comunicaciones/test-receipt.jpg)
+
 
 This is what the model read. I don't have a front end for this app. 
 
